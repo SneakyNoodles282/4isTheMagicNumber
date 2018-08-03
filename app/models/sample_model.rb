@@ -14,7 +14,7 @@ def number_toword(number)
             return result
         end
     rescue
-        return 137491841924719
+        return 1374456
     end
 end
 

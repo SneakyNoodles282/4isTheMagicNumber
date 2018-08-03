@@ -49,16 +49,16 @@
     <body>
         <nav>
     <div class="nav-wrapper">
-      <a href="#!" class="brand-logo">The Magic Number<i class="material-icons">looks_4</i></a>
+      <a href="index.html" class="brand-logo">The Magic Number<i class="material-icons">looks_4</i></a>
       <ul class="right hide-on-med-and-down">
          <li><a href="answer.html">How it works</a></li>
       </ul>
     </div>
   </nav>
         <p><%= @number %> is <%= @numbword %> </p>
-        <p><%= @numbword %> is <% @sic %> </p>
-        <p><%= @sic %> is <% @op %> </p>
-        <p><%= @op %> is <% @result %> </p>
+        <p><%= @numbword %> is <%= @sic %> </p>
+        <p><%= @sic %> is <%= @op %> </p>
+        <p><%= @op %> is <%= @result %> </p>
             <%case @result
               when 1%>
                 <p>1 is 3</p>
