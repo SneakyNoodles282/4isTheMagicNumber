@@ -56,8 +56,9 @@
     </div>
   </nav>
         <p><%= @number %> is <%= @numbword %> </p>
-        <p><%= @numbword %> is <%= @sic %> </p>
-        <p><%= @sic %> is <%= @result %> </p>
+        <p><%= @numbword %> is <% @sic %> </p>
+        <p><%= @sic %> is <% @op %> </p>
+        <p><%= @op %> is <% @result %> </p>
             <%case @result
               when 1%>
                 <p>1 is 3</p>
