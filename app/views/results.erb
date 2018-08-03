@@ -1,6 +1,6 @@
 <html>
     <head>
-        <style type="text/css">
+        <style>
              
              nav {
                height: 100px !important;
@@ -38,23 +38,34 @@
                 /* Support for IE. */
                 font-feature-settings: 'liga';
               }
+              body{
+                  background: url("http://www.kinyu-z.net/data/wallpapers/61/916704.jpg") ;
+                  background-size: 1800px 800px;
+
+              }
+              
+               
         </style>
 
         <title>SIKE</title>
         <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+ 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">    
     </head>
+
     <body>
-        <nav>
-    <div class="nav-wrapper">
-      <a href="index.html" class="brand-logo">The Magic Number<i class="material-icons">looks_4</i></a>
-      <ul class="right hide-on-med-and-down">
-         <li><a href="answer.html">How it works</a></li>
-      </ul>
-    </div>
-  </nav>
+    <header>
+        <nav class = " blue-grey lighten-1">
+          <div class="nav-wrapper">
+                 <a href="/" class="brand-logo">The Magic Number<i class="material-icons">looks_4</i></a>
+               <ul class="right hide-on-med-and-down">
+         <li><a href="/howtoplay">How it works</a></li>
+              </ul>
+             </div>
+        </nav>
+    </header>
+    <main>
         <p><%= @number %> is <%= @numbword %> </p>
         <p><%= @numbword %> is <%= @sic %> </p>
         <p><%= @sic %> is <%= @op %> </p>
@@ -102,7 +113,8 @@
                 <p>5 is 4</p>
                 <p>4 is the magic number.</p>
             <%end%>
-    <footer class="page-footer">
+    </main>
+    <footer class="page-footer grey">
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
@@ -110,7 +122,7 @@
                 <p class="grey-text text-lighten-4">    </p>
               </div>
               <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
+                <h5 class="white-text">    </h5>
                 <ul>
                   <li><a class="grey-text text-lighten-3" href="#!"></a>     </li>
                   <li><a class="grey-text text-lighten-3" href="#!"></a>     </li>
@@ -129,7 +141,3 @@
         </footer>
     </body>
 </html>
-
-<p></p>
-<p></p>
-<p></p>

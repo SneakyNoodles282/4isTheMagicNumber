@@ -6,6 +6,9 @@ body {
     min-height: 100vh;
     flex-direction: column;
   }
+label {
+  font-size: 40px!important;
+}
 
   main {
     flex: 1 0 auto;

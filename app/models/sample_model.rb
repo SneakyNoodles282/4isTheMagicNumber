@@ -1,7 +1,7 @@
 def number_toword(number)
     begin
         if number == 4
-            return  number
+            return number
         else
             
             word = number.to_words.gsub(" and ","")

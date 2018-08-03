@@ -1,5 +1,10 @@
 <html>
     <head>
+      <script>
+        $(document).ready(function() {
+   M.updateTextFields();
+ });
+      </script>
       <style type="text/css">
              
              nav {
@@ -38,6 +43,15 @@
                 /* Support for IE. */
                 font-feature-settings: 'liga';
               }
+              
+              body{
+                  background: url("http://www.kinyu-z.net/data/wallpapers/61/916704.jpg") ;
+                  background-size: 1800px 800px;
+
+              }
+              nav {
+                box-shadow: 10px 10px grey;
+              }
         </style>
 
 
@@ -47,36 +61,28 @@
         <title>The Math Riddle</title>
     </head>
     <body>
-    <nav>
-    <div class="nav-wrapper">
+      <header>
+    <nav class = " blue-grey lighten-1">
+    <div class="nav-wrapper ">
       <a href="#!" class="brand-logo">The Magic Number<i class="material-icons">looks_4</i></a>
       <ul class="right hide-on-med-and-down">
          <li><a href="/howtoplay">How it works</a></li>
       </ul>
     </div>
   </nav>
-        <form class="" action="/results" method="post">
-            
-          <label for="sike">Give me a number! NOW!!!</label>
-          <input type="number" name="sike">
-
-          <input type="submit" value="Is four the magic number?">
-        </form> 
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-    <footer class="page-footer">
+  </header>
+  <main>
+    <form class="" action="/results" method="post">
+      <div class="row">
+        <div class="input-field col s6">
+          <h5>Enter a number</h5>
+          <input type="text" name="sike">
+          <input type="submit" value="Submit">
+        </div>
+      </div>
+    </form>
+   </main>    
+    <footer class="page-footer grey">
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
@@ -96,7 +102,7 @@
           </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2020 Copyright Text
+            © 2018 Copyright Text
             <a class="grey-text text-lighten-4 right" href="#!">   </a>
             </div>
           </div>
